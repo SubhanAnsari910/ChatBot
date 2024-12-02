@@ -1,4 +1,5 @@
-const api = "AIzaSyCGFwYcs-8EJVRt-lzctWD8R32rahqbfg8"
+
+const api = import.meta.env.VITE_REACT_API_SECRET_KEY;
 
 import {
     GoogleGenerativeAI,
